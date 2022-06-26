@@ -14,7 +14,7 @@ body {
     flex-direction: column;
 }
 
-img, h1, p {
+* {
     margin: 0;
 }
 
@@ -28,7 +28,7 @@ img, h1, p {
     max-width: 320px;
     padding: 16px 16px 40px;
     text-align: center;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 20px hsla(0, 0%, 0%, 0.1);
 }
 
 .qr_image {
@@ -40,8 +40,10 @@ img, h1, p {
 h1 {
     font-weight: 700;
     font-size: 22px;
-    width: 250px;
-    margin: 25px 0 15px;
+    width: 288px;
+    margin-top: 24px;
+    line-height: 28px;
+    letter-spacing: 0.005em;
     color: hsl(218, 44%, 22%);
 }
 
@@ -49,14 +51,18 @@ p {
     font-weight: 400;
     font-size: 15px;
     width: 250px;
+    margin-top: 16px;
+    line-height: 19px;
+    letter-spacing: 0.015em;
     color: hsl(220, 15%, 55%);
 }
 
 .attribution {
+    position: absolute;
+    bottom: 15px;
     font-size: 15px;
     text-align: center;
-    margin-top: 35px;
-    color: hsl(218, 44%, 22%);;
+    color: hsl(218, 44%, 22%);
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
